@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/static/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 18px;
+}
+p {
+    font-weight: 400;
+    margin-bottom: 10%;
+}
+
+.profil {
+    background-color: hsl(0, 0%, 12%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profil_img {
+    border-radius: 50%  ;
+    width: 25%;
+}
+
+.city {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10%;
+}
+
+.link {
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    margin: 5%;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.link:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
